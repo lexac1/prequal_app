@@ -26,3 +26,11 @@ var mortagageType = function (mortagageTypes) {
     console.log(false)
   }
 }
+
+var debtToIncomeRatio = function (income, liabilities) {
+  if (income > 0) {
+    $('.results').html('Approved')
+  } else {
+    $('.results').html('Not Approved')
+  }
+}
