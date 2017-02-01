@@ -1,3 +1,3 @@
 get '/' do
-  'index.html'
+  erb :index
 end
